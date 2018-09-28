@@ -7,6 +7,7 @@ y_train = [1,2,3]
 
 w = tf.Variable(tf.random_normal([1]),name = 'weight')
 # tensorflow가 자체적으로 변경시키는 변수 학습하는 과정에서 스스로 변경 [1] = 값을 1개를 사용한다는 것을 의미
+# trainable variable.
 b = tf.Variable(tf.random_normal([1]), name='bias')
 
 # Our hypothesis XW+b
@@ -24,7 +25,7 @@ train = optimizer.minimize(cost)
 #Launch the graph in a session
 sess = tf.Session()
 #Initializes global variables in the graph.
-sess.run(tf.global_variables_initializer())
+sess.run(tf.global_variables_initializer()) # 반드시 사용하기 전에 초기화 작업을 해야한다.
 
 #Fit the Line
 for step in range(2001):
