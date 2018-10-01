@@ -1,3 +1,5 @@
+# 2018-9-28 DongYoung Kim
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 

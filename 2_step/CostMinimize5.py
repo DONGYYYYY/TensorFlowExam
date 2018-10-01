@@ -1,3 +1,5 @@
+# 2018-9-28 DongYoung Kim
+
 import tensorflow as tf
 X = [1,2,3]
 Y = [1,2,3]

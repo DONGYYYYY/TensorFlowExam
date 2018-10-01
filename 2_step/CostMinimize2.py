@@ -1,3 +1,5 @@
+# 2018-9-28 DongYoung Kim
+
 import tensorflow as tf
 x_data = [ 1 , 2 , 3 ]
 y_data = [ 1 , 2 , 3 ]

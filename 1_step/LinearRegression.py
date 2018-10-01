@@ -1,3 +1,5 @@
+# 2018-9-28 DongYoung Kim
+
 import tensorflow as tf
 # X and Y data
 x_train = [1,2,3]

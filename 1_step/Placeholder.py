@@ -1,3 +1,5 @@
+# 2018-9-28 DongYoung Kim
+
 import tensorflow as tf
 
 W = tf.Variable(tf.random_normal([1]), name='weight')
